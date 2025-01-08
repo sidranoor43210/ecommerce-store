@@ -17,12 +17,12 @@ localStorage.setItem("theme","dark");
 
 return(
     <div className="relative">
-<img src="https://img.icons8.com/?size=80&id=H3yHeysB1dxv&format=png"
+<img src="https://img.icons8.com/?size=80&id=SyBDr18WdUcD&format=png"
 alt=""
 onClick={()=>setTheme(theme==="light"?"dark":"light")}
 className={`w-12 cursor=pointer drop-shadow-[1px_1px_1px_rgbs(0,0,0,0.1)]
 transition-all duration-300 absolute right-0 z-10 ${theme==="dark" ? "opacity-0" : "opacity-100"}`}/>
-<img src="https://img.icons8.com/?size=80&id=SyBDr18WdUcD&format=png"
+<img src="https://img.icons8.com/?size=80&id=H3yHeysB1dxv&format=png"
 onClick={()=>setTheme(theme==="light"?"dark":"light")}
 className="w-12 cursor=pointer drop-shadow-[1px_1px_1px_rgbs(0,0,0,0.1)]
 transition-all duration-300"/>
