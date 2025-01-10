@@ -145,8 +145,7 @@ bg-white p-2 text-black shadow-md">
                 <a href={data.link}
                 className="inline-block w-full
                 rounded-md p-2 hover:bg-primary/20"
-                
-                >
+>
                {data.name}
                 </a>
             </li>
