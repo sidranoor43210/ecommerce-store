@@ -34,7 +34,7 @@ const Menu= [
 const DropdownLinks =[
     {
         id: 1,
-        name: "Trending Products",
+        name: "Trending Items",
         link:"/#",
     },
     {
@@ -48,7 +48,6 @@ const DropdownLinks =[
         link:"/#",
     },
 ];
-
 const Navbar=()=> {
   return <div className="shadow-md bg-white 
   dark:bg-gray-900
@@ -83,16 +82,16 @@ hidden sm:block">
     focus:outline-none  focus:border-1
     focus:border-primary"/>
 
-<IoMdSearch className="text-gray-500 
-group-hover:text-primary absoulte top-1/2 
--translate-y-1/2 right-3"/>
+ {/*<IoMdSearch className="text-gray-500 group-hover:text-primary absoulte top-1/2 
+//-translate-y-1/2 right-3"/> */}
+
 </div>
 {/* order button */}
 <button
  onClick={()=> alert("Ordering not available yet")}
    className="bg-gradient-to-r from-primary
    to-secondary transition-all duration-200
-   -translate-x-0 -translate-y-1.5
+   -translate-x-1 -translate-y-0.3
    text-white py-1 px-3 rounded-full flex
    items-center group" 
     >
