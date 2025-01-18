@@ -1,5 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
 import Img1 from "../../assets/shirts/shirt.png"
 import Img2 from "../../assets/shirts/shirt2.png"
 import Img3 from "../../assets/shirts/shirt3.png"
@@ -29,7 +28,6 @@ description:
                 "lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                     },
 ]
-
 
 const TopProducts =() =>{
 return(
@@ -103,11 +101,6 @@ group-hover:text-primary"
 </div>
         </div>
     </div>
-=======
-const TopProducts =() =>{
-return(
-    <div>TopProducts</div>
->>>>>>> 52ae6a555135cf2bba10e0d8ce319ac081090960
-)
+    )
 }
 export default TopProducts;
