@@ -8,7 +8,10 @@ import Products from "./components/Products/Products";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import TopProducts from "./components/TopProducts/TopProducts";
+<<<<<<< HEAD
 import Banner from "./components/Banner/Banner";
+=======
+>>>>>>> 52ae6a555135cf2bba10e0d8ce319ac081090960
 const App=()=> {
  React.useEffect(()=>{
   AOS.init({
@@ -24,7 +27,10 @@ const App=()=> {
 <Hero/>
 <Products/>
 <TopProducts/>
+<<<<<<< HEAD
 <Banner/>
+=======
+>>>>>>> 52ae6a555135cf2bba10e0d8ce319ac081090960
   </div>;
 };
 

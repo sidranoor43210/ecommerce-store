@@ -14,7 +14,9 @@ gap-6 items-center">
     <img src={BannerImg} alt=""/>
 </div>
 {/*text details section */}
+<div className="">
 
+</div>
 
 </div>
  </div>
