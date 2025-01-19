@@ -4,7 +4,6 @@ import Img2 from "../../assets/shirts/shirt2.png"
 import Img3 from "../../assets/shirts/shirt3.png"
 
 import { FaStar } from "react-icons/fa";
-
 const ProductsData=[
     {
 id:1,
@@ -28,8 +27,7 @@ description:
                 "lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                     },
 ]
-
-const TopProducts =() =>{
+const TopProducts =({handleOrderPopup}) =>{
 return(
     <div>
         <div className="container">
@@ -91,7 +89,7 @@ className="bg-primary hover:scale-105
 duration-300 text-white py-1 px-4
 rounded-full mt-4 group-hover:bg-white
 group-hover:text-primary"
-// onClick={handleOrderPopup}
+ onClick={handleOrderPopup}
 >
     Order Now
 </button>

@@ -62,7 +62,7 @@ text-justify mb-3 flex items-center gap-3"
 <div className="grid grid-cols-2 sm:grid-cols-3
 col-span-2 md:pl-10">
     <div>
-        <div className="py-8 px-4">
+        <div className="py-8">
             <h1 className="sm:text-3xl texl-xl
             font-bold sm:text-left text-justify mb-3" >
                 Important Links</h1>
@@ -102,7 +102,7 @@ col-span-2 md:pl-10">
 {/*social links */}
 <div>
     <div className="flex items-center gap-3
-    mt-6">
+    mt-10">
 <a href="#">
     <FaInstagram className="text-3xl"/>
 </a>

@@ -48,15 +48,14 @@ const DropdownLinks =[
         link:"/#",
     },
 ];
-const Navbar=()=> {
+const Navbar=({handleOrderPopup})=> {
   return <div className="shadow-md bg-white 
   dark:bg-gray-900
   dark:text-white duration-200
   relative z-40">
    {/* upper Navbar */}
     <div className="bg-primary/40 py-2"> 
-    <div className="container flex 
-    justify-between items-center">
+    <div className="container flex  items-center">
     <div>
 <a href="#" className="font-bold
 text-2xl sm:text-3xl flex gap-2">
@@ -66,7 +65,7 @@ text-2xl sm:text-3xl flex gap-2">
 </a>
 </div>
 {/* search bar */}
-<div className="flex justify-between
+<div className="flex justify-end flex-1
 items-center gap-4">
 <div className="realtive group 
 flex justify-between items-center
@@ -88,7 +87,7 @@ hidden sm:block">
 </div>
 {/* order button */}
 <button
- onClick={()=> alert("Ordering not available yet")}
+ onClick={()=> handleOrderPopup()}
    className="bg-gradient-to-r from-primary
    to-secondary transition-all duration-200
    -translate-x-1 -translate-y-0.3
@@ -113,7 +112,8 @@ hidden sm:block">
     </div>
     </div>
    {/* lower Navbar */}
-    <div className="flex justify-center">   
+    <div data-aos="zoom-in"
+     className="flex justify-center">   
 <ul className="sm:flex hidden items-center 
 gap-4">
 {Menu.map((data)=>(

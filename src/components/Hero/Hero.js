@@ -32,7 +32,7 @@ const ImageList = [
     },
 ];
 
-const Hero = () => {
+const Hero = ({handleOrderPopup}) => {
     const settings = {
         dots: true,
         arrows: true,
@@ -76,6 +76,7 @@ const Hero = () => {
                                     </p>
                                     <div>
                                         <button
+                                        onClick={handleOrderPopup}
                                         data-aos="fade-up"
                                         data-aos-delay="300"
                                          data-aos-duration="500"
